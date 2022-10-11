@@ -1,26 +1,17 @@
 # DEHotkeys
 
-![Image](https://i.imgur.com/WAEzk68.png)
+![Image](https://i.imgur.com/buuPQel.png)
 
 Update of DemonEinsteins mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=1473553107
 
-![Image](https://i.imgur.com/7Gzt3Rg.png)
+![Image](https://i.imgur.com/pufA0kM.png)
 
-
-[table]
-	[tr]
-		[td]https://invite.gg/Mlie]![Image](https://i.imgur.com/zdzzBrc.png)
-[/td]
-		[td]https://github.com/emipa606/DEHotkeys]![Image](https://i.imgur.com/kTkpTOE.png)
-[/td]
-	[/tr]
-[/table]
 	
-![Image](https://i.imgur.com/NOW7jU1.png)
+![Image](https://i.imgur.com/Z4GOv8H.png)
 
 
-# Ever wonder what&apos;s the point of having hotkeys if you have to click through a menu to use them? Well now you don&apos;t (most of the time) have to!
+# Ever wonder what's the point of having hotkeys if you have to click through a menu to use them? Well now you don't (most of the time) have to!
 
 
 
@@ -30,12 +21,12 @@ This mod makes the order hotkeys work when you are not in the order menu. The ho
 https://ludeon.com/forums/index.php?topic=43294.0]Forum Post
 
 
-Feel free to report issues, ask questions, or suggest features here or on GitHub. I&apos;m always looking for ways I can improve the mod!
+Feel free to report issues, ask questions, or suggest features here or on GitHub. I'm always looking for ways I can improve the mod!
 
 made by DemonEinstein on August 10, 2018
 
 
-![Image](https://i.imgur.com/Rs6T6cr.png)
+![Image](https://i.imgur.com/PwoNOj4.png)
 
 
 

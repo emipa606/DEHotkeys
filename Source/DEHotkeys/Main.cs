@@ -2,15 +2,14 @@
 using HarmonyLib;
 using Verse;
 
-namespace DEHotkeys
+namespace DEHotkeys;
+
+[StaticConstructorOnStartup]
+public static class Main
 {
-    [StaticConstructorOnStartup]
-    public static class Main
+    static Main()
     {
-        static Main()
-        {
-            var harmony = new Harmony("DEHotkeys");
-            harmony.PatchAll(Assembly.GetExecutingAssembly());
-        }
+        var harmony = new Harmony("DEHotkeys");
+        harmony.PatchAll(Assembly.GetExecutingAssembly());
     }
 }
