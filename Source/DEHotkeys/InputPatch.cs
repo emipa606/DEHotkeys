@@ -30,16 +30,6 @@ public class InputPatch
 
     private static void CheckHotkey(string key, int orderNum)
     {
-        //code from trying to add feature where hotkeys are allowed where their gizmos do not appear
-        /*
-        if (Find.MainTabsRoot.OpenTab != null && Find.MainTabsRoot.OpenTab.defName.Equals("Inspect") && ((MainTabWindow_Inspect)Find.MainTabsRoot.OpenTab.TabWindow).ShouldShowPaneContents)
-        {
-            foreach (Gizmo gizmo in ((ISelectable)Find.Selector.SingleSelectedObject).GetGizmos())
-            {
-                Log.Error(Convert.ToString(gizmo.GetType()));
-            }
-        }
-        */
         if (!Input.GetKeyDown(key))
         {
             return;

@@ -9,7 +9,6 @@ public static class Main
 {
     static Main()
     {
-        var harmony = new Harmony("DEHotkeys");
-        harmony.PatchAll(Assembly.GetExecutingAssembly());
+        new Harmony("DEHotkeys").PatchAll(Assembly.GetExecutingAssembly());
     }
 }
