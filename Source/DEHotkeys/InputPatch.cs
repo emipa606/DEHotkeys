@@ -7,12 +7,11 @@ using Verse.Sound;
 
 namespace DEHotkeys;
 
-[HarmonyPatch(typeof(Game))]
-[HarmonyPatch("UpdatePlay")]
+[HarmonyPatch(typeof(Game), nameof(Game.UpdatePlay))]
 public class InputPatch
 {
     //miminally altered version of DesignatorManager.CheckSelectedDesignatorValid() for use in CheckHotkey()
-    private static bool CheckSelectedDesignatorValid()
+    private static bool checkSelectedDesignatorValid()
     {
         if (Find.DesignatorManager.SelectedDesignator == null)
         {
@@ -28,7 +27,7 @@ public class InputPatch
         return false;
     }
 
-    private static void CheckHotkey(string key, int orderNum)
+    private static void checkHotkey(string key, int orderNum)
     {
         if (!Input.GetKeyDown(key))
         {
@@ -40,7 +39,7 @@ public class InputPatch
         if (Find.DesignatorManager.SelectedDesignator != designator)
         {
             Find.DesignatorManager.Select(designator);
-            if (CheckSelectedDesignatorValid())
+            if (checkSelectedDesignatorValid())
             {
                 designator.activateSound.PlayOneShotOnCamera();
             }
@@ -52,7 +51,7 @@ public class InputPatch
         Find.DesignatorManager.Deselect();
     }
 
-    private static void Postfix()
+    public static void Postfix()
     {
         //if Hotkeys are enabled in the current context
         if (Find.World.renderer.wantedMode != WorldRenderMode.None || Find.MainTabsRoot.OpenTab != null &&
@@ -68,20 +67,20 @@ public class InputPatch
             return;
         }
 
-        CheckHotkey("c", 0);
-        CheckHotkey("x", 1);
-        CheckHotkey("l", 2);
-        CheckHotkey("b", 3);
-        CheckHotkey("p", 4);
-        CheckHotkey("y", 5);
-        CheckHotkey("h", 6);
-        CheckHotkey("j", 7);
-        CheckHotkey("o", 8);
-        CheckHotkey("n", 10);
-        CheckHotkey("z", 11);
-        CheckHotkey("f", 15);
-        CheckHotkey("u", 16);
-        CheckHotkey("i", 17);
-        CheckHotkey("k", 18);
+        checkHotkey("c", 0);
+        checkHotkey("x", 1);
+        checkHotkey("l", 2);
+        checkHotkey("b", 3);
+        checkHotkey("p", 4);
+        checkHotkey("y", 5);
+        checkHotkey("h", 6);
+        checkHotkey("j", 7);
+        checkHotkey("o", 8);
+        checkHotkey("n", 10);
+        checkHotkey("z", 11);
+        checkHotkey("f", 15);
+        checkHotkey("u", 16);
+        checkHotkey("i", 17);
+        checkHotkey("k", 18);
     }
 }
