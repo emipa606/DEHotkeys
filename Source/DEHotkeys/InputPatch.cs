@@ -8,7 +8,7 @@ using Verse.Sound;
 namespace DEHotkeys;
 
 [HarmonyPatch(typeof(Game), nameof(Game.UpdatePlay))]
-public class InputPatch
+public static class InputPatch
 {
     //miminally altered version of DesignatorManager.CheckSelectedDesignatorValid() for use in CheckHotkey()
     private static bool checkSelectedDesignatorValid()

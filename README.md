@@ -1,13 +1,13 @@
 # [DEHotkeys (Continued)](https://steamcommunity.com/sharedfiles/filedetails/?id=2194026191)
 
-![Image](https://i.imgur.com/buuPQel.png)
+![Image](https://img.litet.net/logos/Info.png)
 
 Update of DemonEinsteins mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=1473553107
 
-![Image](https://i.imgur.com/pufA0kM.png)
+![Image](https://img.litet.net/logos/Notice.png)
 	
-![Image](https://i.imgur.com/Z4GOv8H.png)
+![Image](https://img.litet.net/logos/OriginalDescription.png)
 
 # Ever wonder what's the point of having hotkeys if you have to click through a menu to use them? Well now you don't (most of the time) have to!
 
@@ -24,13 +24,13 @@ Feel free to report issues, ask questions, or suggest features here or on GitHub
 made by DemonEinstein on August 10, 2018
 
 
-![Image](https://i.imgur.com/PwoNOj4.png)
+![Image](https://img.litet.net/logos/ReportingIssues.png)
 
 
 
 -  See if the the error persists if you just have this mod and its requirements active.
 -  If not, try adding your other mods until it happens again.
--  Post your error-log using [HugsLib](https://steamcommunity.com/workshop/filedetails/?id=818773962) or the standalone [Uploader](https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404) and command Ctrl+F12
+-  Always post your log using the [Log Uploader](https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404)
 -  For best support, please use the Discord-channel for error-reporting.
 -  Do not report errors by making a discussion-thread, I get no notification of that.
 -  If you have the solution for a problem, please post it to the GitHub repository.
@@ -38,4 +38,4 @@ made by DemonEinstein on August 10, 2018
 
  
 
-[![Image](https://img.shields.io/github/v/release/emipa606/DEHotkeys?label=latest%20version&style=plastic&color=9f1111&labelColor=black)](https://steamcommunity.com/sharedfiles/filedetails/changelog/2194026191) | tags: hotkeys
+[![Image](https://img.shields.io/github/v/release/emipa606/DEHotkeys?label=latest%20version&style=plastic&color=9f1111&labelColor=black)](https://steamcommunity.com/sharedfiles/filedetails/changelog/2194026191) | hotkeys
